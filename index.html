@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" lang="en"/>
+<title>TipToe Soles Template page</title>
+<style>
+	body{
+		background-color: lightgray;
+	}
+		footer{
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		height: 10%;
+		background-color: darkgray;
+	}
+	.button{
+		background-color: #f7c903;
+		border: whitesmoke;
+		color: black;
+		padding: 15px 3px;
+		text-align: center;
+		display: inline-block;
+		font-size: 16px;
+		border-radius: 8px;	
+		display: flex;
+		flex-direction: column;
+	}
+	.button:hover{
+		background-color: whitesmoke;
+		color: black;
+		border-style: solid;
+		border-color: #f7c903;	
+	}
+	.button2{
+		background-color: #f7c903;
+		border: whitesmoke;
+		color: black;
+		padding: 15px 10%;
+		text-align: center;
+		display: inline-block;
+		font-size: 16px;
+		border-radius: 8px;	
+		position: relative;
+	}
+	.button2:hover{
+		background-color: whitesmoke;
+		color: black;
+		border-style: solid;
+		border-color: #f7c903;	
+	}
+	.Logo{
+		width: 15%;
+		height: 15%;
+		float: left;
+		position: fixed;
+	}
+	.Banner{
+		width: 85%;
+		height: 20%;
+		float: right;
+		position: absolute;
+		top: 0%;
+		right: 0%;
+		border-style: solid;
+		border-color: #f7c903;
+	}
+	.Content{
+		overflow: auto;
+		width: 80%;
+		height: 60%;
+		float: right;
+		position: fixed;
+		top: 22%;
+		left: 160px;
+		background-color: white;
+	}
+	.SideMenu{
+		width: 150px;
+		height: 400px;
+		background-color: darkgray;
+		position: fixed;
+		top: 15%
+	}
+	.Vertical{
+		list-style-type: none;
+		margin: 10px;
+		padding: 0;
+		width: 130px;
+		position: fixed;
+		overflow: auto;	
+	}
+	.Horizontal{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		background-color: darkgray;
+		display: flex;
+	}
+	@media screen and (max-width:1000px){
+		div.SideMenu{
+			top: 20%;		
+		}
+		div.Banner {
+			width: 70%;		
+		}		
+	}
+</style>
+</head>
+
+<body>
+<div class="Logo">
+	<a href="index.html">
+		<img src="images/logo.png" alt="Our Logo" style="width:100px;height:100px;">
+	</a>
+	<p>Please, God help me.</p>
+</div>
+<div class="Banner">
+	<p>Figure out how to put images side by side going to product pages</p>
+	<p>or photoshop something together idfk</p>
+	<p>banner test</p>
+	<p>banner test</p>
+</div>
+<div class="Content">
+	<h1>Welcome to Tip Toes Soles</h1>
+	<p>How can we help you today?</p>
+	<p>What happens if I add a ton more content?</p>	
+	<p>What happens if I add a ton more content?</p>
+	<p>What happens if I add a ton more content?</p>
+	<p>What happens if I add a ton more content?</p>
+	<p>What happens if I add a ton more content?</p>
+	<p>What happens if I add a ton more content?</p>
+	<p>What happens if I add a ton more content?</p>
+	<p>What happens if I add a ton more content?</p>
+	<p>What happens if I add a ton more content?</p>
+	<p>What happens if I add a ton more content?</p>
+	<p>What happens if I add a ton more content?</p>
+	<p>What happens if I add a ton more content?</p>
+	<p>What happens if I add a ton more content?</p>
+	<p>What happens if I add a ton more content?</p>
+	<p>What happens if I add a ton more content?</p>
+	<p>What happens if I add a ton more content?</p>
+	<p>What happens if I add a ton more content?</p>
+	<p>What happens if I add a ton more content?</p>
+	<p>What happens if I add a ton more content?</p>
+	<p>What happens if I add a ton more content?</p>
+</div>
+<div class="SideMenu">
+	<ul class="Vertical">
+	<li><a href="about.html" class="button">About Us</a></li>
+	<li><a href="product.html" class="button">Products</a></li>
+	<li><a href="user.html" class="button">User Account</a></li>
+	<li><a href="wish.html" class="button">Wishlist</a></li>
+	<li><a href="services.html" class="button">Services</a></li>
+	<li><a href="feedback.html" class="button">Feedback Form</a></li>
+	<li><a href="contact.html" class="button">Contact Us</a></li>
+	</ul>
+</div>
+</body>
+<footer>
+	<ul class="Horizontal">
+	<li><a href="return.html" class="button2">Returns Policy</a></li>
+	<li><a href="exchange.html" class="button2">Exchange Policy</a></li>
+	<li><a href="delivery.html" class="button2">Delivery Information</a></li>
+</footer>
