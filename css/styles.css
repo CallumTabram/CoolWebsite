@@ -24,7 +24,7 @@ input[type=text] {
 	font-size: 20px;
 	border: none;
 	border-bottom: 2px solid #f7c903;
-	field-sizing: content; /*automatically sizes the input field to the size of the inputted text*/
+	/*field-sizing: content; /*automatically sizes the input field to the size of the inputted text*/
 }
 input[type=submit] {
 	font-size: 20px;
@@ -36,6 +36,11 @@ input[type=submit]:hover {
 	background-color: #f7c903;
 	border: none;
 	border-bottom: 2px solid whitesmoke;
+}
+#search {
+    font-size: 20px;
+	border: none;
+	border-bottom: 2px solid #f7c903;
 }
 .button {
 	background-color: #f7c903;
@@ -180,5 +185,5 @@ hr {
 @media screen and (max-width:850px) {
 	.Banner {
 		width: 100%;
-
+	}
 }
